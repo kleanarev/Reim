@@ -42,7 +42,7 @@ public class DBUtil {
 
 		// step 2
 		String driver = "org.postgresql.Driver";
-     //   String url = "jdbc:postgresql://localhost:5432/ers";
+//        String url = "jdbc:postgresql://localhost:5432/ers";
 		String url = "jdbc:postgresql://ip-172-31-22-141.ec2.internal:8888/ers";
         String userName = "postgres";
         String password = "Revature@22";

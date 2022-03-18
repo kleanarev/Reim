@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage ('Clone Code') {
 			steps {
-				git branch: 'main', url: 'git@github.com:kleanarev/Backend'
+				git branch: 'master', url: 'git@github.com/kleanarev/Reim'
 			}
 		}
 		
